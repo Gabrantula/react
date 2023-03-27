@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+    #logo, #logo img {
+        margin-left: 1.5%;
+        position: relative;
+    }
+    header nav .long {
+        display: none;
+    }
+    header nav .responsive {
+        display: inline;
+    }
+    nav #user span {
+        position: absolute;
+        top: 1%;
+        right: 3%;
+        
+    }
+    .responsive {
+        width: 50px;
+        height: 50px;
+        display: block;
+        border: none;
+        background: linear-gradient(
+          to bottom, 
+          darkgoldenrod, darkgoldenrod 20%, 
+          bisque 20%, bisque 40%, 
+          darkgoldenrod 40%, darkgoldenrod 60%, 
+          bisque 60%, bisque 80%, 
+          darkgoldenrod 80%, darkgoldenrod 100%
+        );
+    }
+    .responsive .user, .responsive .guest {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 200px;
+        height: 100%;
+        transition: 0.3s;
+    }
+}

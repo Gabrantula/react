@@ -1,0 +1,23 @@
+
+.btn-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: 'row';
+  align-items: center;
+  /*background-color: #fff;*/
+  padding: 30px 50px;
+  border-radius: 12px;
+}
+ 
+.btn-container .btn {
+  border: none;
+  color:#fff;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap:6px;
+  background-color: #FF0063;
+  border-radius: 4px;
+  padding: 6px 15px;
+  margin: 0 10px;
+}
