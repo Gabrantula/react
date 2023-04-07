@@ -1,21 +1,22 @@
 import { Link } from "react-router-dom";
+import styles from './all-items.module.css'
 
-export default function CatalogItem ({
+export const CatalogItem =({
     _id,
     title,
-    imageUrl
-}) {
+    imageUrl,
+    
+}) => {
     return (
-        
-        <div className="card">
-            <div className="img">
-                {/* <img src="/pictures/monkey-1.png" alt="monkey-1" />*/}
-                <img src={imageUrl} alt="monkey-1" />
+        <div className={styles["card"]}>
+            <div className={styles["img"]}>
+                
+                <img src={imageUrl} alt="" />
             </div>
-            <div className="info">
-                {/* <p>Monkey on the mirrow</p>*/}
+            <div className={styles["info"]}>
+                
                 <p>{title}</p>
-                <Link className='btn' to={`/details/${_id}`}>Details</Link>
+                <Link className={styles["btn"]} to={`/all-cards/${_id}`}>Details</Link>
                
             </div>
         </div>
