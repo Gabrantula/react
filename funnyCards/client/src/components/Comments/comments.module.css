@@ -1,0 +1,84 @@
+ #comments-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(250, 238, 224);
+   /* height: 400px;*/
+    height: 83vh;
+    width: 100vw;
+ }
+ #comments-page .details-comments,
+ #comments-page .create-comment {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    box-shadow: 7px 7px 7px 7px rgb(107, 81, 13);
+    border-radius: 10px;
+    overflow: auto;
+    background-color: bisque;
+    margin: auto 2%;
+ }
+ 
+ #comments-page .details-comments .comments-all .comment{ 
+    list-style-type: none;
+   
+ }
+ 
+ #comments-page .details-comments .no-comment
+ {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: rgb(107, 81, 13);
+    letter-spacing: 2px;
+ }
+ #comments-page p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    color: rgb(107, 81, 13);
+    margin: 3% auto;
+    
+    text-align: center;
+ }
+ #comments-page .create-comment,
+ #comments-page h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: rgb(91, 134, 214);
+    letter-spacing: 2px;
+    text-align: center;
+    
+ }
+.create-comment textarea {
+   width: 75%;
+   height: 25%;
+   font-size: 20px;
+   background-color:rgb(250, 238, 224)
+}
+ #comments-page .create-comment .action {
+    margin-bottom: 3%;
+    padding: 10px 35px 10px 35px;
+     border-radius: 10px;
+     text-decoration: none;
+     background-color: rgb(91, 134, 214);
+     color: white;
+     border: none;
+     box-shadow: 3px 3px 3px 3px rgb(107, 81, 13);
+     letter-spacing: 1px;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     cursor: pointer;
+ }
+ #comments-page .create-comment .action:hover {
+    box-shadow: none;
+    border: 1px solid rgb(107, 81, 13);
+ }
+ #comments-page .create-comment .form .form-error {
+   color: red;
+   font-size: 20px;
+   margin-top: 3px;
+   font-style: italic;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: normal;
+}
