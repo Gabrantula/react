@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+#home-page {
+    background-color: rgb(240, 213, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: rgb(107, 81, 13);
+    font-family: 'Kaushan Script', cursive;
+
+}
+#home-page img {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow:7px 7px 7px 7px rgb(107, 81, 13);
+}
+#home-page h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+#home-page h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+#home-page .dashboard {
+   padding: 10px 60px 10px 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(91, 134, 214);
+    /*margin-bottom: 30px;*/
+    border: none;
+    box-shadow: 3px 3px 3px 3px rgb(107, 81, 13);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#home-page .dashboard:hover {
+    box-shadow: none;
+    border: 1px solid rgb(107, 81, 13);
+}
