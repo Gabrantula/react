@@ -14,3 +14,5 @@ Usage
 
 `npm start`
 
+### Little preview
+<img width="1526" alt="Screenshot 2023-04-07 at 14 48 17" src="https://user-images.githubusercontent.com/104615619/230705852-0d346f59-452c-4325-97b6-36c315c84bab.png">
